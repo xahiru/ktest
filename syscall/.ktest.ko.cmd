@@ -1,0 +1,1 @@
+cmd_/home/kexin/ktest/syscall/ktest.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/kexin/ktest/syscall/ktest.ko /home/kexin/ktest/syscall/ktest.o /home/kexin/ktest/syscall/ktest.mod.o
